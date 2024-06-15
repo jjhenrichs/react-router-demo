@@ -49,7 +49,7 @@ export const AUTHORS = {
     articles: [
       "accessibility-and-html",
       "objects",
-      "articles/characteristics-of-a-good-test",
+      "characteristics-of-a-good-test",
     ],
   },
   Nick: {
