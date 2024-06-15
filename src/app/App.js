@@ -23,13 +23,14 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     /* Wrap this Root Route to create Router here */
     <Route path="/" element={<Root />}>
-      <Route path="/about" element={<About />} />
-      <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/articles" element={<Articles />} />
-      <Route path="/authors/:name" element={<Author />} />
-      <Route path="/articles/:title" element={<Article />} />
-      <Route path="/categories" element={<Categories />} />
-      <Route path="/profile" element={<Profile />} />
+      <Route path="about" element={<About />} />
+      <Route path="sign-up" element={<SignUp />} />
+      <Route path="articles" element={<Articles />} />
+      <Route path="authors/:name" element={<Author />} />
+      <Route path="articles/:title" element={<Article />} />
+      <Route path="categories" element={<Categories />} />
+      <Route path="profile" element={<Profile />} />
+      <Route path="profile/edit" element={<EditProfileForm />} />
     </Route>
   )
 );
