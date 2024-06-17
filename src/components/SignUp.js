@@ -15,6 +15,7 @@ export default function SignUp() {
     e.preventDefault();
     dispatch(signUp({ username: username }));
     // imperatively redirect the user to /profile
+    navigate("/profile");
   };
 
   return (
