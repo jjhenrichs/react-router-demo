@@ -12,6 +12,7 @@ export default function Footer() {
 
   const goForward = () => {
     // imperatively redirect forward
+    navigate(1);
   };
 
   return (
